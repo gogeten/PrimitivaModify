@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Primitiva</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="disegnBy">Todos los derechos reservados...</string>
+    <string name="combinacion">Combinación</string>
+    <string name="grabar">¿Grabar última combinación?</string>
+    <string name="ok">OK</string>
+    <string name="tituloPreferencia">Guardar combinación</string>
+    <string name="combinacion_inicial">\?</string>
+    <string name="title_activity_acerca_de">AcercaDe</string>
+    <string name="acercade">Acerca de...</string>
+    <string name="realizadopor">App realizada por Javier Quintela Fernández</string>
+    <string name="copyright">Todos los derechos reservados...</string>
+
+</resources>

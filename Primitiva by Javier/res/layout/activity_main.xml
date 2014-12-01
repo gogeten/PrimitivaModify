@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01D58B"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="83dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/iconus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/combinacion"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <LinearLayout
+                android:id="@+id/columna1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/textbola1"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bolas"
+                    android:gravity="center"
+                    android:text="@string/combinacion_inicial"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#006428"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/textbola2"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bolas"
+                    android:gravity="center"
+                    android:text="@string/combinacion_inicial"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#006428"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/textbola3"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bolas"
+                    android:gravity="center"
+                    android:text="@string/combinacion_inicial"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#006428"
+                    android:textSize="40sp" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="17dp" >
+
+                <TextView
+                    android:id="@+id/textbola4"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bolas"
+                    android:gravity="center"
+                    android:text="@string/combinacion_inicial"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#006428"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/textbola5"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bolas"
+                    android:gravity="center"
+                    android:text="@string/combinacion_inicial"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#006428"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/textbola6"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bolas"
+                    android:gravity="center"
+                    android:text="@string/combinacion_inicial"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#006428"
+                    android:textSize="40sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/botonPlay"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/play2" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#006428"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/disegnBy"
+            android:textColor="#FDFEFE" />
+
+    </LinearLayout>
+
+</LinearLayout>
